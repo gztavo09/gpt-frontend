@@ -3,6 +3,7 @@ import {
   GptMessage,
   MyMessage,
   TypingLoader,
+  TextMessageBox,
   GptMessageSelectableImage,
 } from "../../components";
 import { imageGenerationUseCase, imageVariationUseCase } from "../../../core/use-cases";
