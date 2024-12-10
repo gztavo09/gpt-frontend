@@ -5,7 +5,7 @@ interface Props {
   message: string
 }
 
-export const OrthographyMessage = ({ userScore, message, errors }: Props) => {
+export const OrthographyMessage = ({ message, errors }: Props) => {
   return (
     <div className="col-start-1 col-end-9 p-3 rounded-lg">
       <div className="flex flex-row items-start">
